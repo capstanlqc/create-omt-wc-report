@@ -1,0 +1,5 @@
+{
+    "project_filter": ["pisa_2025ms"],
+    "get_stats_per_file": false,
+    "file_filter": ["assessments", "questionnaires"]
+}

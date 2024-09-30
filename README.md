@@ -39,7 +39,7 @@ The report includes one row for each for these:
 You can modify the behaviour of the script with the following configuration options: 
 
 - `project_filter`: list of substrings that the path to each omegat project must contain to be included in the report
-- `get_stats_per_file: boolean value that indicates whether an individual row for each file in the project must be included in the report (if `get_stats_per_file` is false, any files outside of the defined subsets will not be included in the report)
+- `get_stats_per_file`: boolean value that indicates whether an individual row for each file in the project must be included in the report (if `get_stats_per_file` is false, any files outside of the defined subsets will not be included in the report)
 - `file_filter`: list of substrings that will be used to find subsets of files in each project, each of which will have its own row in the report
 
 For example, the following configuration:

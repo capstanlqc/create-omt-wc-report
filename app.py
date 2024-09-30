@@ -139,7 +139,7 @@ for omtprj_fpath in omtprj_fpaths:
     print(omtprj_dpath)
     stats_fpath = os.path.join(omtprj_dpath, "omegat", "project_stats.json")
     if not os.path.isfile(stats_fpath):
-        continue
+        continue # or run console-translate omegat on the project
 
     if not is_json_file(stats_fpath):
         continue
@@ -171,16 +171,7 @@ for omtprj_fpath in omtprj_fpaths:
 
 adjust_cols(report_fpath)
 
-
-# 'project': 'source-language': 'en',
-# 'project': 'target-language': 'hu-HU',
-# 'project': 'name': 
-    
-    
-
-
+# todo:
 # unzip omegat project packages? 
-# config option to output one single report for all on one single one for each
-# patterns inside (e.g. assessments, questionnaires), ORI INT
+# config option to output one single report for all or one single one for each
 # process files if config["get_stats_per_file"]: true
-# delete empty sheet "Sheet" in report
